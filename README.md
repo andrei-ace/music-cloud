@@ -8,7 +8,7 @@ Edit .ask/congig.template with your skill id and Lambda ARN
 To generate the catalog files:
 
 Install and configure awscli
-Create user, roles and DynamoDB table, Drobpbox token as described here: medium-link-here
+Create user, roles and DynamoDB table, Drobpbox token as described here: https://medium.com/@andreiciobanu_15529/build-your-own-music-streaming-service-with-amazon-alexa-41c7bf1eb66a
 
 Edit .env.template with your Dropbox token and rename to .env
 ```
