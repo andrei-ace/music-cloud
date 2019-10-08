@@ -1,0 +1,70 @@
+{
+  "manifest": {
+    "apis": {
+      "music": {
+        "regions": {},
+        "endpoint": {
+          "uri": "MusicCloudLambda",
+          "sourceDir": "lambda/us-east-1_MusicCloudLambda"
+        },
+        "interfaces": [
+          {
+            "namespace": "Alexa.Media.Playback",
+            "version": "1.0",
+            "requests": [
+              {
+                "name": "Initiate"
+              }
+            ]
+          },
+          {
+            "namespace": "Alexa.Media.Search",
+            "version": "1.0",
+            "requests": [
+              {
+                "name": "GetPlayableContent"
+              }
+            ]
+          },
+          {
+            "namespace": "Alexa.Audio.PlayQueue",
+            "version": "1.0",
+            "requests": [
+              {
+                "name": "GetNextItem"
+              },
+              {
+                "name": "GetPreviousItem"
+              }
+            ]
+          }
+        ],
+        "locales": {
+          "en-US": {
+            "promptName": "Music Cloud",
+            "aliases": [
+              {
+                "name": "music cloud"
+              },
+              {
+                "name": "my cloud"
+              },
+              {
+                "name": "cloud music"
+              }
+            ],
+            "features": []
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Music Cloud"
+        }
+      }
+    }
+  }
+}

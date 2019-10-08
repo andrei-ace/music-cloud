@@ -1,0 +1,28 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "YOUR-SKILL-ID",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": ""
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "music/default"
+            ],
+            "arn": "YOUR-LAMBDA-ARN",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/us-east-1_MusicCloudLambda",
+            "functionName": "MusicCloudLambda",
+            "handler": "index.handler",
+            "revisionId": "",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}

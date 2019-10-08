@@ -1,0 +1,6 @@
+.ask/config
+.env
+node_modules/
+*.mp3
+artists.json
+songs.json
