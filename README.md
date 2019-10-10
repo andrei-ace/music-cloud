@@ -5,6 +5,7 @@ ask-cli init
 ```
 
 Install awscli
+Configure us-east-1 region
 Create Lambda function, DynamoDB table and iam roles
 ```
 $ aws cloudformation deploy --template-file ./infrastructure/music-cloud.json --stack-name music-cloud-stack --capabilities CAPABILITY_IAM
@@ -12,7 +13,7 @@ $ aws cloudformation deploy --template-file ./infrastructure/music-cloud.json --
 $ aws cloudformation describe-stacks --stack-name music-cloud-stack
 ```
 
-Edit .ask/congig.template with your skill id and Lambda ARN (aws cloudformation describe-stacks)
+Edit .ask/config.template with your skill id and Lambda ARN (aws cloudformation describe-stacks)
 
 Add Alexa Skills Kit trigger for the MusicCloudLambda 
 
