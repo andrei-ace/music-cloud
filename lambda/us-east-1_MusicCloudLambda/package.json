@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "aws-sdk": "^2.542.0"
+    "aws-sdk": "^2.547.0"
   }
 }
