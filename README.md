@@ -1,7 +1,7 @@
 Install ask-cli and initialize it
 ```
-npm install -g ask-cli
-ask-cli init
+$ npm install -g ask-cli
+$ ask-cli init
 ```
 
 Install awscli
