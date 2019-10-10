@@ -3,7 +3,18 @@ Install ask-cli and initialize it
 npm install -g ask-cli
 ask-cli init
 ```
-Edit .ask/congig.template with your skill id and Lambda ARN
+
+Install awscli
+Create Lambda function, DynamoDB table and iam roles
+```
+$ aws cloudformation deploy --template-file ./infrastructure/music-cloud.json --stack-name music-cloud-stack --capabilities CAPABILITY_IAM
+
+$ aws cloudformation describe-stacks --stack-name music-cloud-stack
+```
+
+Edit .ask/congig.template with your skill id and Lambda ARN (aws cloudformation describe-stacks)
+
+Add Alexa Skills Kit trigger for the MusicCloudLambda 
 
 To generate the catalog files:
 
