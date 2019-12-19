@@ -38,7 +38,7 @@ const readMetadata = async (filePath) => {
 }
 
 const scanDirectory = async (dir) => {
-    return await promisify(recursive)('./mp3');
+    return await promisify(recursive)(dir);
 }
 
 const uploadToDropbox = async (entry) => {
@@ -194,10 +194,8 @@ const mapToSongsCatalog = async (entry) => {
     }
 }
 
-
-
 if (argv._[0] === 'upload') {
-    scanDirectory(argv.file)
+    scanDirectory(argv.dir)
         .then(files => Promise.map(files, file => readMetadata(file)))
         .then(entries => Promise.map(entries, entry => uploadToDropbox(entry), { concurrency: 5 }))
         .then(entries => Promise.map(entries, entry => shareFromDropbox(entry), { concurrency: 5 }))
