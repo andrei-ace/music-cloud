@@ -13,7 +13,7 @@
     "bluebird": "^3.5.3",
     "dotenv": "^8.1.0",
     "dropbox": "^4.0.14",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "music-metadata": "^4.8.0",
     "node-fetch": "^2.3.0",
     "recursive-readdir": "^2.2.2",
