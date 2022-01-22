@@ -15,7 +15,7 @@
     "dropbox": "^4.0.14",
     "lodash": "^4.17.11",
     "music-metadata": "^4.8.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^3.1.1",
     "recursive-readdir": "^2.2.2",
     "yargs": "^14.0.0"
   }
