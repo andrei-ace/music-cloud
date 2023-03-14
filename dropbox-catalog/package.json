@@ -9,7 +9,7 @@
   "author": "Andrei Ciobanu",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.380.0",
+    "aws-sdk": "^2.814.0",
     "bluebird": "^3.5.3",
     "dotenv": "^8.1.0",
     "dropbox": "^4.0.14",
