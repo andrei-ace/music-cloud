@@ -1,5 +1,8 @@
 .ask/config
+.ask/ask-states.json
+.ask/lambda/
 .env
+skill-package/skill.json
 node_modules/
 *.mp3
 artists.json
