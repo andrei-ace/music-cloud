@@ -1,3 +1,13 @@
+# :warning: Archive Notice for `music-cloud`
+
+> :red_circle: **Status:** Archived due to API changes
+
+Due to significant changes in Amazon's API, the `music-cloud` project (created in 2019) has become **unmaintainable**. As a result, this project is now being archived.
+
+:blue_heart: I **appreciate** the community's support and engagement over the years. For any further inquiries or potential forks, please refer to the documentation available in the repository.
+
+
+
 Install ask-cli and initialize it
 ```
 $ npm install -g ask-cli@2
